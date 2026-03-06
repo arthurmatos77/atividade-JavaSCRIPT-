@@ -2,7 +2,7 @@ function exercicio2() {
     const valorHora = Number(prompt("digite o valor"))
 }
 const buttonExercicio2 = document.getElementById("exercicio2")
-buttonExercicio.addEventListener('click', () => { exercicio2() })
+buttonExercicio2.addEventListener('click', () => { exercicio2() })
 
 
 function exercicio3() {
@@ -18,13 +18,15 @@ function exercicio3() {
 }
 
 const buttonExercicio3 = document.getElementById("exercicio3")
-buttonExercicio.addEventListener('click', () => { exercicio3() })
+buttonExercicio3.addEventListener('click', () => { exercicio3() })
 
 function exercicio4() {
     const temperatura = Number(prompt("digite a temperatura em celsius"))
     const resultado = ((9 * temperatura + 160) / 5)
     alert(resultado)
 }
+const buttonExercicio4 = document.getElementById("exercicio4")
+buttonExercicio4.addEventListener('click', () => { exercicio4() })
 
 function exercicio5() {
     const distância = Number(prompt("digite converta para quilômetros"))
@@ -37,7 +39,7 @@ function exercicio5() {
 
 }
 const buttonExercicio5 = document.getElementById("exercicio5")
-buttonExercicio.addEventListener('click', () => { exercicio5() })
+buttonExercicio5.addEventListener('click', () => { exercicio5() })
 
 
 
@@ -59,7 +61,7 @@ function exercicio6() {
 
 }
 const buttonExercicio6 = document.getElementById("exercicio6")
-buttonExercicio.addEventListener('click', () => { exercicio6() })
+buttonExercicio6.addEventListener('click', () => { exercicio6() })
 
 
 
@@ -79,7 +81,7 @@ function exercicio7() {
 
 }
 const buttonExercicio7 = document.getElementById("exercicio7")
-buttonExercicio.addEventListener('click', () => { exercicio7() })
+buttonExercicio7.addEventListener('click', () => { exercicio7() })
 
 
 
@@ -108,4 +110,4 @@ function exercicio8() {
 
 }
 const buttonExercicio8 = document.getElementById("exercicio8")
-buttonExercicio.addEventListener('click', () => { exercicio8() })
+buttonExercicio8.addEventListener('click', () => { exercicio8() })
