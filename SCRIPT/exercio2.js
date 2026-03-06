@@ -1,7 +1,5 @@
-alert ("teste exercicio2")
-
-//valorHora e horasTrabalhadas * multiplicação * 
-// prompt = alert 
-
-// indentificar variaveis - valoriza e Horas trabalhadas 
-// indentifcar para 
+function exercicio2() {
+    const valorHora = Number(prompt("digite o valor"))
+}
+const buttonExercicio = document.getElementById("exercicio2")
+buttonExercicio.addEventListener('click',() => {exercicio2() })
