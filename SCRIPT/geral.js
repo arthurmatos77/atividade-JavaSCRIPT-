@@ -102,12 +102,31 @@ function exercicio8() {
     // numero *8
     // numero *9
     // numero *10
-
-
-
-
-
-
 }
 const buttonExercicio8 = document.getElementById("exercicio8")
 buttonExercicio8.addEventListener('click', () => { exercicio8() })
+
+
+
+
+function exercicio9() {
+    //entrada 
+    const nota = Number(prompt("informe a primeira nota"))
+    const nota2 = Number(prompt("informe a segunda nota"))
+    const nota3 = Number(prompt("informe a terceira nota"))
+
+    const media = ( nota + nota2 + nota3 )
+
+    if (media >= 7 ) {
+        alert("Aprovado")
+    }
+    else if (media >= 5) {
+        alert("recuperaçao")
+    }
+    
+    else if (media <= 5 ) {
+        alert("reprovado") 
+    }
+}
+const buttonExercicio9 = document.getElementById("exercicio9")
+buttonExercicio9.addEventListener('click', () => { exercicio9() })
